@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.game__container {
+  width: 50%;
+  margin: 0 auto;
+}
+.game__container h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: red;
+}
+
+.button__container {
+  margin-top: 50px;
+  display: flex;
+}
+.button__container > button {
+  flex: 1;
+  margin-left: 50px;
+}
